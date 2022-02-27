@@ -91,12 +91,10 @@ def l1_cat_cv(classifier, classifier_name):
     plt.show()
     plt.savefig('CM.png')
     df_confusion.to_csv('CM_df.csv')
-    clsf_report = pd.DataFrame(columns=['Acc','prr'])
-    clsf_report['Acc'] = pd.Series([1,2,3])
-    clsf_report['prr'] = pd.Series([3,2,1])
+    
 
 
-    #clsf_report = pd.DataFrame(classification_report(y_true = y_test, y_pred = classification1, output_dict=True)).transpose()
+    clsf_report = pd.DataFrame(classification_report(y_true = y_test, y_pred = classification1, output_dict=True)).transpose()
     clsf_report.to_csv('CR.csv', index= False)
 #     print(clsf_report.to_markdown())
     

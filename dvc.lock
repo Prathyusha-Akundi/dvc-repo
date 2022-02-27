@@ -7,8 +7,8 @@ stages:
       md5: d6be4f8f6691ff07cc8499577cdedd23
       size: 16430047
     - path: train.py
-      md5: adceac5c38abae09ea966e215ebbdd64
-      size: 3897
+      md5: efee268ed40dc8fc00d3348950f7a21d
+      size: 3759
     outs:
     - path: CM.png
       md5: a1e2b2036f53f36ba1afe31e6da316d3
@@ -17,5 +17,5 @@ stages:
       md5: 639382ea6e429f6b361496a01b4d9378
       size: 123
     - path: CR.csv
-      md5: a14976e901bb98ff7540343553f4c6aa
-      size: 20
+      md5: bd568f73c24c216bf6b5ea80628fa7e6
+      size: 603
