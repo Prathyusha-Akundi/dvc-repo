@@ -1,0 +1,12 @@
+stages:
+  train:
+    cmd: python3 train.py
+    deps:
+    - /perfios/DATA/prathyusha/InsureTech/BERT/masterlist_prudential.csv
+    - train.py
+    outs:
+    - CM.png
+    - CM_df.csv
+    metrics:
+    - CR.csv:
+        cache: false
